@@ -15,7 +15,6 @@ describe('dev asset page', () => {
         await AuthPage.setPasswordCreateAccConfirmValue('salampopolam228')
         await AuthPage.clickCreateRegisterBtn();
         await expect(await AuthPage.isEmailVerificationFormDisplayed()).true;
-        await browser.pause(5000);
     });
     it('should login with valid credentials, create new register and adding an asset group from a template', async () => {
         await browser.url('https://dev.asset.accountant') 
@@ -36,7 +35,6 @@ describe('dev asset page', () => {
         await DevAssetMainPage.clickCreateCapitalWorksAssetForm()
         await DevAssetMainPage.clickCreateSaveBtn()
         assert.strictEqual(await DevAssetMainPage.getSuccessText(),'Saved 1 asset groups successfully')
-        await browser.pause(5000);
     });
 });
 
