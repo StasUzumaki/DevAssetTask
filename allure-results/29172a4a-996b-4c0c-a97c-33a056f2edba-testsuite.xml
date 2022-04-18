@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650283726064' stop='1650283749736'>
+    <name>dev asset page</name>
+    <title>dev asset page</title>
+    <test-cases>
+        <test-case start='1650283726064' status='broken' stop='1650283749732'>
+            <name>should create account with valid credentials</name>
+            <title>should create account with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Firefox-101.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Protocol error (Input.dispatchMouseEvent): Target closed.</message>
+                <stack-trace>Protocol error (Input.dispatchMouseEvent): Target closed.
+                ProtocolError: Protocol error (Input.dispatchMouseEvent): Target closed.
+                    at C:\Users\oyani\Trainee\CompletedTasks\devAsset\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:230:24
+                    at new Promise (&lt;anonymous>)
+                    at CDPSession.send (C:\Users\oyani\Trainee\CompletedTasks\devAsset\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Connection.js:226:16)
+                    at Mouse.down (C:\Users\oyani\Trainee\CompletedTasks\devAsset\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Input.js:379:28)
+                    at Mouse.click (C:\Users\oyani\Trainee\CompletedTasks\devAsset\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Input.js:368:24)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+                    at async ElementHandle.click (C:\Users\oyani\Trainee\CompletedTasks\devAsset\node_modules\puppeteer-core\lib\cjs\puppeteer\common\JSHandle.js:497:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1650283749734' status='pending' stop='1650283749734'>
+            <name>should login with valid credentials, create new register and adding an asset group from a template</name>
+            <title>should login with valid credentials, create new register and adding an asset group from a template</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

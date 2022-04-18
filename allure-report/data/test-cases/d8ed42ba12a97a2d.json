@@ -1,0 +1,50 @@
+{
+  "uid" : "d8ed42ba12a97a2d",
+  "name" : "should login with valid credentials, create new register and adding an asset group from a template",
+  "fullName" : "dev asset page.should login with valid credentials, create new register and adding an asset group from a template",
+  "historyId" : "4ff6e951de9f559abf9aa4ec5f30586d",
+  "time" : {
+    "start" : 1650283512618,
+    "stop" : 1650283512618,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testClass",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials, create new register and adding an asset group from a template"
+  }, {
+    "name" : "package",
+    "value" : "dev asset page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8ed42ba12a97a2d.json",
+  "parameterValues" : [ ]
+}

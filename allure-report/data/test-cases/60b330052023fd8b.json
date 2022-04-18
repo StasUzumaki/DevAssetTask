@@ -1,0 +1,70 @@
+{
+  "uid" : "60b330052023fd8b",
+  "name" : "should create account with valid credentials",
+  "fullName" : "dev asset page.should create account with valid credentials",
+  "historyId" : "8151635200f3b87cc1f1575170914f7e",
+  "time" : {
+    "start" : 1650283721626,
+    "stop" : 1650283744513,
+    "duration" : 22887
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testClass",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should create account with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "dev asset page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "62461ec572b28b1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650283488446,
+        "stop" : 1650283512615,
+        "duration" : 24169
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60b330052023fd8b.json",
+  "parameterValues" : [ "chrome-100.0.4896.88" ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "a61aa2b2bfc9f07c",
+  "name" : "should create account with valid credentials",
+  "fullName" : "dev asset page.should create account with valid credentials",
+  "historyId" : "46cbe09c0c5d970236e3959bd4c9edd7",
+  "time" : {
+    "start" : 1650284027385,
+    "stop" : 1650284052934,
+    "duration" : 25549
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testClass",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should create account with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "dev asset page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Firefox-101.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b40b7f7953b8989",
+      "status" : "broken",
+      "statusDetails" : "Protocol error (Input.dispatchMouseEvent): Target closed.",
+      "time" : {
+        "start" : 1650283726064,
+        "stop" : 1650283749732,
+        "duration" : 23668
+      }
+    }, {
+      "uid" : "7e9ef854743c2459",
+      "status" : "broken",
+      "statusDetails" : "Protocol error (Input.dispatchMouseEvent): Target closed.",
+      "time" : {
+        "start" : 1650283492790,
+        "stop" : 1650283520042,
+        "duration" : 27252
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a61aa2b2bfc9f07c.json",
+  "parameterValues" : [ "Firefox-101.0" ]
+}

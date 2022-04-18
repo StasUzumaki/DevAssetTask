@@ -1,0 +1,90 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should create account with valid credentials",
+    "uid" : "60b330052023fd8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650283721626,
+      "stop" : 1650283744513,
+      "duration" : 22887
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-100.0.4896.88" ]
+  }, {
+    "name" : "should create account with valid credentials",
+    "uid" : "f2538f288b61b51e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650284006632,
+      "stop" : 1650284032330,
+      "duration" : 25698
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Chrome-100.0.4896.88" ]
+  }, {
+    "name" : "should create account with valid credentials",
+    "uid" : "b34ef0116e50f2c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650284006931,
+      "stop" : 1650284026236,
+      "duration" : 19305
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Edge-100.0.1185.44" ]
+  }, {
+    "name" : "should create account with valid credentials",
+    "uid" : "a61aa2b2bfc9f07c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650284027385,
+      "stop" : 1650284052934,
+      "duration" : 25549
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Firefox-101.0" ]
+  }, {
+    "name" : "should login with valid credentials, create new register and adding an asset group from a template",
+    "uid" : "45cbc82f3f850fe2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1650284052936,
+      "stop" : 1650284052936,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 6,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
+}

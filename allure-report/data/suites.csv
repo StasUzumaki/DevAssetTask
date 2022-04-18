@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Apr 18 15:13:47 EEST 2022","Mon Apr 18 15:14:12 EEST 2022","25549","","dev asset page","","dev asset page","should create account with valid credentials","should create account with valid credentials",""
+"passed","Mon Apr 18 15:13:26 EEST 2022","Mon Apr 18 15:13:46 EEST 2022","19305","","dev asset page","","dev asset page","should create account with valid credentials","should create account with valid credentials",""
+"passed","Mon Apr 18 15:13:26 EEST 2022","Mon Apr 18 15:13:52 EEST 2022","25698","","dev asset page","","dev asset page","should create account with valid credentials","should create account with valid credentials",""
+"skipped","Mon Apr 18 15:14:12 EEST 2022","Mon Apr 18 15:14:12 EEST 2022","0","","dev asset page","","dev asset page","should login with valid credentials, create new register and adding an asset group from a template","should login with valid credentials, create new register and adding an asset group from a template",""
+"passed","Mon Apr 18 15:08:41 EEST 2022","Mon Apr 18 15:09:04 EEST 2022","22887","","dev asset page","","dev asset page","should create account with valid credentials","should create account with valid credentials",""

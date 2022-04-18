@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650283721625' stop='1650283744515'>
+    <name>dev asset page</name>
+    <title>dev asset page</title>
+    <test-cases>
+        <test-case start='1650283721626' status='passed' stop='1650283744513'>
+            <name>should create account with valid credentials</name>
+            <title>should create account with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1650283744515' status='pending' stop='1650283744515'>
+            <name>should login with valid credentials, create new register and adding an asset group from a template</name>
+            <title>should login with valid credentials, create new register and adding an asset group from a template</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,51 @@
+[ {
+  "uid" : "45cbc82f3f850fe2",
+  "name" : "should login with valid credentials, create new register and adding an asset group from a template",
+  "time" : {
+    "start" : 1650284052936,
+    "stop" : 1650284052936,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b34ef0116e50f2c0",
+  "name" : "should create account with valid credentials",
+  "time" : {
+    "start" : 1650284006931,
+    "stop" : 1650284026236,
+    "duration" : 19305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60b330052023fd8b",
+  "name" : "should create account with valid credentials",
+  "time" : {
+    "start" : 1650283721626,
+    "stop" : 1650283744513,
+    "duration" : 22887
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a61aa2b2bfc9f07c",
+  "name" : "should create account with valid credentials",
+  "time" : {
+    "start" : 1650284027385,
+    "stop" : 1650284052934,
+    "duration" : 25549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2538f288b61b51e",
+  "name" : "should create account with valid credentials",
+  "time" : {
+    "start" : 1650284006632,
+    "stop" : 1650284032330,
+    "duration" : 25698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,62 @@
+{
+  "uid" : "7e9ef854743c2459",
+  "name" : "should create account with valid credentials",
+  "fullName" : "dev asset page.should create account with valid credentials",
+  "historyId" : "46cbe09c0c5d970236e3959bd4c9edd7",
+  "time" : {
+    "start" : 1650283492790,
+    "stop" : 1650283520042,
+    "duration" : 27252
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Protocol error (Input.dispatchMouseEvent): Target closed.",
+  "statusTrace" : "Protocol error (Input.dispatchMouseEvent): Target closed.\n                ProtocolError: Protocol error (Input.dispatchMouseEvent): Target closed.\n                    at C:\\Users\\oyani\\Trainee\\CompletedTasks\\devAsset\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Connection.js:230:24\n                    at new Promise (<anonymous>)\n                    at CDPSession.send (C:\\Users\\oyani\\Trainee\\CompletedTasks\\devAsset\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Connection.js:226:16)\n                    at Mouse.down (C:\\Users\\oyani\\Trainee\\CompletedTasks\\devAsset\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Input.js:379:28)\n                    at Mouse.click (C:\\Users\\oyani\\Trainee\\CompletedTasks\\devAsset\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\Input.js:368:24)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (node:internal/process/task_queues:94:5)\n                    at async ElementHandle.click (C:\\Users\\oyani\\Trainee\\CompletedTasks\\devAsset\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\common\\JSHandle.js:497:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testClass",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should create account with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "dev asset page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Firefox-101.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e9ef854743c2459.json",
+  "parameterValues" : [ "Firefox-101.0" ]
+}

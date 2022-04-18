@@ -1,0 +1,106 @@
+{
+  "uid" : "45cbc82f3f850fe2",
+  "name" : "should login with valid credentials, create new register and adding an asset group from a template",
+  "fullName" : "dev asset page.should login with valid credentials, create new register and adding an asset group from a template",
+  "historyId" : "4ff6e951de9f559abf9aa4ec5f30586d",
+  "time" : {
+    "start" : 1650284052936,
+    "stop" : 1650284052936,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testClass",
+    "value" : "dev asset page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials, create new register and adding an asset group from a template"
+  }, {
+    "name" : "package",
+    "value" : "dev asset page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1670f94f42f44017",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650284032333,
+        "stop" : 1650284032333,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c5d5bb0bc54559ea",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650284026238,
+        "stop" : 1650284026238,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a630c1016bc406ad",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650283749734,
+        "stop" : 1650283749734,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c41d27ed430b429",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650283744515,
+        "stop" : 1650283744515,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e1e0fb8e1c1ca28",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650283520044,
+        "stop" : 1650283520044,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d8ed42ba12a97a2d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1650283512618,
+        "stop" : 1650283512618,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45cbc82f3f850fe2.json",
+  "parameterValues" : [ ]
+}
