@@ -1,75 +1,77 @@
 const Page = require('./Page')
 
 const createAccBtn = '[class*=" Login-create"]';
-const signIn = '[class*=" Login-heading"]';
-const UserName = '#Username'; //sign in field
+const signInBtn = '[class*=" Login-heading"]';
+const UserName = '#Username';
 const NextBtn = '[class*=" Login-submit"]';
 const PasswordSignIn = '#Password';
 const signInSubmitBtn = '[class*=" Login-submit"]';
-const firstNameCreate = '#FirstName' //create acc field
+const firstNameCreate = '#FirstName' 
 const lastNameCreate = '#LastName'
 const email = '#Email';
 const PhoneNumb = '#PhoneNumber';
 const PasswordCreateAcc = '#Password';
 const PasswordConfirm = '#ConfirmPassword';
 const RegisterBtn = '[class="btn btn-lg btn-primary"]';
+const EmailVerificationForm = '[class="card-body"]'
 
 class AuthPage {
 
-    async inputUserName(UsName){
-        return await Page.setValue(UserName, UsName)
+    async setUserNameValue(userNameInput){
+        return await Page.setValue(UserName, userNameInput)
     }
 
-    async NextBtnClick(){
+    async clickCreateNextBtn(){
         return await Page.click(NextBtn)
     }
 
-    async inputPasswordSignIn(Pass){
-        return await Page.setValue(PasswordSignIn, Pass)
+    async setPasswordSignInValue(inputPassowrdSignIn){
+        return await Page.setValue(PasswordSignIn, inputPassowrdSignIn)
     }
 
-    async signInSubmitBtnClick(){
+    async clickCreateSignInSubmitBtn(){
         return await Page.click(signInSubmitBtn)
     }
 
-
-    async createAccBtnClick(){
+    async clickCreateCreateAccountBtn(){
         return await Page.click(createAccBtn)
     }
 
-    async inputFisrtName(firstName) {
-        return await Page.setValue(firstNameCreate, firstName)
+    async setFisrtNameValue(firstNameInput) {
+        return await Page.setValue(firstNameCreate, firstNameInput)
     }
 
-    async inputLastName(lastName){
-        return await Page.setValue(lastNameCreate, lastName)
+    async setLastNameValue(lastNameInput){
+        return await Page.setValue(lastNameCreate, lastNameInput)
     }
 
-    async inputEmail(mail){
-        return await Page.setValue(email, mail)
+    async setEmailValue(emailInput){
+        return await Page.setValue(email, emailInput)
     }
 
-    async inputPhoneNumber(Phone){
-        return await Page.setValue(PhoneNumb, Phone)
+    async setPhoneNumberValue(PhoneInput){
+        return await Page.setValue(PhoneNumb, PhoneInput)
     }
 
-    async inputPassword(Pass){
-        return await Page.setValue(PasswordCreateAcc, Pass)
+    async setPasswordCreateAccValue(PasswordCreateAccInput){
+        return await Page.setValue(PasswordCreateAcc, PasswordCreateAccInput)
     }
 
-    async inputPasswordConfirm(PassConf){
-        return await Page.setValue(PasswordConfirm, PassConf)
+    async setPasswordCreateAccConfirmValue(PasswordCreateAccConfirmInput){
+        return await Page.setValue(PasswordConfirm, PasswordCreateAccConfirmInput)
     }
 
-    async RegisterBtnClick(){
+    async clickCreateRegisterBtn(){
         return await Page.click(RegisterBtn)
     }
 
-    async signInClick(){
-        return await Page.click(signIn)
+    async clickCreateSignInBtn(){
+        return await Page.click(signInBtn)
     }
 
-    async 
+    async isEmailVerificationFormDisplayed(){
+        return await Page.isElementDisplayed(EmailVerificationForm)
+    }
 }
 
 module.exports = new AuthPage();

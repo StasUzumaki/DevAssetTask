@@ -1,45 +1,43 @@
 const AuthPage =require('../pageobjects/Authentication.page')
 const DevAssetMainPage = require('../pageobjects/DevAssetMain.page');
 const assert = require('assert');
+const {expect} = require('chai');
 
 describe('dev asset page', () => {
     it('should create account with valid credentials', async () => {
         await browser.url('https://dev.asset.accountant') 
-        await AuthPage.createAccBtnClick();
-        await AuthPage.inputFisrtName('Stanislav')
-        await AuthPage.inputLastName('Lavryk') 
-        await AuthPage.inputEmail('stashuskar2003@gmail.com') 
-        await AuthPage.inputPhoneNumber('0933691181')
-        await AuthPage.inputPassword('salampopolam228')
-        await AuthPage.inputPasswordConfirm('salampopolam228')
-        await AuthPage.RegisterBtnClick();
+        await AuthPage.clickCreateCreateAccountBtn();
+        await AuthPage.setFisrtNameValue('Stanislav')
+        await AuthPage.setLastNameValue('Lavryk') 
+        await AuthPage.setEmailValue('stashuskar2003@gmail.com') 
+        await AuthPage.setPhoneNumberValue('0933691181')
+        await AuthPage.setPasswordCreateAccValue('salampopolam228')
+        await AuthPage.setPasswordCreateAccConfirmValue('salampopolam228')
+        await AuthPage.clickCreateRegisterBtn();
+        await expect(await AuthPage.isEmailVerificationFormDisplayed()).true;
         await browser.pause(5000);
-
     });
-    
-    xit('should login with valid credentials, create new register and adding an asset group from a template', async () => {
+    it('should login with valid credentials, create new register and adding an asset group from a template', async () => {
         await browser.url('https://dev.asset.accountant') 
-        await AuthPage.signInClick()
-        await AuthPage.inputUserName('stashuskar2003@gmail.com')
-        await AuthPage.NextBtnClick()
-        await AuthPage.inputPasswordSignIn('salampopolam228')
-        await AuthPage.signInSubmitBtnClick()
-        await DevAssetMainPage.CreateRegisterBtnClick()
-        await DevAssetMainPage.RegisterNameInput('TestDebAsset')
-        await DevAssetMainPage.RegisterEntityInput('test123')
-        await DevAssetMainPage.NextBtnClick()
-        await DevAssetMainPage.TryForFreeBtnClick()
-        await DevAssetMainPage.RegisterSelectionClick()
-        await DevAssetMainPage.AllRegistersClick()
-        await DevAssetMainPage.FirstRegisterClick()
-        await DevAssetMainPage.CreateAssetGroupTemplateBtn()
-        await DevAssetMainPage.CapitalWorksAssetClick()
-        await DevAssetMainPage.SaveBtnClick()
+        await AuthPage.clickCreateSignInBtn()
+        await AuthPage.setUserNameValue('stashuskar2003@gmail.com')
+        await AuthPage.clickCreateNextBtn()
+        await AuthPage.setPasswordSignInValue('salampopolam228')
+        await AuthPage.clickCreateSignInSubmitBtn()
+        await DevAssetMainPage.clickCreateCreateRegisterBtn()
+        await DevAssetMainPage.setRegisterNameValue('TestDebAsset')
+        await DevAssetMainPage.setRegisterEntityValue('test123')
+        await DevAssetMainPage.clickCreateNextRegisterBtn()
+        await DevAssetMainPage.clickCreateTryForFreeBtn()
+        await DevAssetMainPage.clickCreateRegisterSelectionDropDown()
+        await DevAssetMainPage.clickCreateAllRegistersLink()
+        await DevAssetMainPage.clickCreateFirstRegister()
+        await DevAssetMainPage.clickCreateCreateAssetGroupTemplateBtn()
+        await DevAssetMainPage.clickCreateCapitalWorksAssetForm()
+        await DevAssetMainPage.clickCreateSaveBtn()
         assert.strictEqual(await DevAssetMainPage.getSuccessText(),'Saved 1 asset groups successfully')
-        //await expect(await DevAssetMainPage.getSuccessText()).toHaveTextContaining('Saved 1 asset groups successfully');
         await browser.pause(5000);
     });
-
 });
 
 

@@ -38,7 +38,9 @@ class Page {
         return (await this.getElement(element)).getText();
     }
 
-
+    async isElementDisplayed(element) {
+        return (await this.getElement(element)).isDisplayed();
+    }
 }
 
 module.exports = new Page();

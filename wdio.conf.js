@@ -8,13 +8,13 @@ exports.config = {
         // 'path/to/excluded/files'
     ],
 
-    maxInstances: 10,
+    maxInstances: 5,
 
     capabilities: [{
         maxInstances: 1,
         browserName: 'chrome',
         'goog:chromeOptions': {
-            args: ['--start-maximized']
+            args: ['--start-fullscreen']
         },
         acceptInsecureCerts: true
     },
@@ -25,14 +25,14 @@ exports.config = {
                 binary: '/Program Files/Firefox Nightly/firefox',
                 args: ['--start-maximized']
             }
-        },*/
+        },
         {
             maxInstances: 1,
             browserName: "MicrosoftEdge",
             'ms:edgeOptions': {
                 args: ['--start-maximized']
             }
-        }
+        }*/
     ],
 
     logLevel: 'info',
