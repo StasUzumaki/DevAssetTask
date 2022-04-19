@@ -12,4 +12,4 @@ dev asset task for WebdriverIO application async-await mode
 
 Defined a default configuration (wdio.conf.js) for Chrome. 
 
-To the run test you need execute command "npm run test" in terminal.
+    - To the run test you need execute command "npm run test" in terminal.
